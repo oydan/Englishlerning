@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+	<link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body class="ints">
+
+
+<div class="button">
+<a href="/"><img src="static/images/logoend.png"></a>
+</div>
+
+
+
+<form name = “add_article” method="post" action="/ishak">
+			<h2>Регестрация</h2>
+			<p>Имя</p>
+			<input name="name" type="text" required placeholder="Введите свое имя">
+			<p>Фамилия</p>
+			<input name="surname" type="text" required placeholder="Введите свою фамилию">
+			<p>Gmail</p>
+			<input name="Gmail" type="text" required placeholder="Введите почту или номер ">
+	    	<p>Password</p>
+			<input name="Password" type="password" required placeholder="Введите пароль">
+			<p>Выбирете свой регион</p>
+			<select style="font-size: 20px" name="continent" required>
+				<option>Africa</option>
+				<option>Asia</option>
+				<option>Europe</option>
+				<option>North America</option>
+				<option>South America</option>
+				<option>Antarctica</option>
+				<option>Australia</option>
+			</select><br>
+			<button name="submit" type="submit">Зарегестрироваться</button>
+			<button name="reset" type="reset">Збросить</button>
+</form>
+
+
+</body>
+</html>
